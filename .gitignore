@@ -1,2 +1,37 @@
 .ipynb_checkpoints
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/webapp/frontend/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/webapp/frontend/.next/
+/webapp/frontend/out/
+
+# production
+/webapp/frontend/build
+
+# misc
 .DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+/webapp/frontend/next-env.d.ts

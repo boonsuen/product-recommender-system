@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  #__next {
+    @apply h-full;
+  }
+  html,
+  body {
+    @apply h-full;
+  }
+  .ant-select-selection-search-input,
+  ant-select-selection-search {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
+
+@layer utilities {
+}
