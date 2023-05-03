@@ -38,3 +38,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 /webapp/frontend/next-env.d.ts
+
+/webapp/backend/__pycache__/
