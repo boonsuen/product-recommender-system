@@ -4,6 +4,7 @@
 
 # datasets
 /datasets
+/dataset
 
 # dependencies
 /webapp/frontend/node_modules
