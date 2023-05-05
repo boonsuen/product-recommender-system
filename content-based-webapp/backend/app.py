@@ -6,8 +6,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 import re
 
-datasetFolderPath = r'/Users/boonsuenoh/Documents/Dev/product-recommender-system/dataset/'
-products = pd.read_json(datasetFolderPath + 'subset_meta_Electronics_cleansed.json')
+products_dataset_path = '../dataset/electronic_products.json'
+products = pd.read_json(products_dataset_path, lines=True)
 products = products.drop(columns=['fit', 'rank', 'details', 'tech1', 'tech2', 'price', 'date', 'imageURL', 'similar_item'], errors='ignore')
 products = products.head(30000)
 
