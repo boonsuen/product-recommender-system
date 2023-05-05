@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 import re
 
-products_dataset_path = '../dataset/electronic_products.json'
+products_dataset_path = '../../dataset/electronic_products.json'
 products = pd.read_json(products_dataset_path, lines=True)
 products = products.drop(columns=['fit', 'rank', 'details', 'tech1', 'tech2', 'price', 'date', 'imageURL', 'similar_item'], errors='ignore')
 products = products.head(30000)
