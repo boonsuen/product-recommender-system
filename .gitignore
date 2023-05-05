@@ -7,7 +7,7 @@
 /dataset
 
 # dependencies
-/webapp/frontend/node_modules
+/content-based-webapp/frontend/node_modules
 /.pnp
 .pnp.js
 
@@ -15,11 +15,11 @@
 /coverage
 
 # next.js
-/webapp/frontend/.next/
-/webapp/frontend/out/
+/content-based-webapp/frontend/.next/
+/content-based-webapp/frontend/out/
 
 # production
-/webapp/frontend/build
+/content-based-webapp/frontend/build
 
 # misc
 .DS_Store
@@ -38,6 +38,6 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-/webapp/frontend/next-env.d.ts
+/content-based-webapp/frontend/next-env.d.ts
 
-/webapp/backend/__pycache__/
+/content-based-webapp/backend/__pycache__/
